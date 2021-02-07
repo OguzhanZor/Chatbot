@@ -1,0 +1,164 @@
+{
+	"intents":
+	[
+		{
+		 "tag":"selamlama",
+		 "patterns":
+			[
+				"Selam",
+				"Nasılsın",
+				"Kimse Yok Mu?",
+				"Merhaba",
+				"İyi günler"
+			],
+		  "responses":
+			[
+				"Hey :-)",
+				"Merhaba, ziyaret ettiğiniz için teşekkürler",
+				"Merhabalar, sizin için ne yapabilirim?",
+				"Merhabalar, nasıl yardımcı olabilirim?"
+			],
+          "action":
+            [
+               "" 
+            ]
+		},
+		{
+	      "tag": "hoşçakal",
+		  "patterns": ["Güle güle", "Sonra görüşürüz","Görüşürüz","By By"],
+		  "responses":
+			[
+				"Sonra görüşürüz, ziyaret ettiğiniz için teşekkürler",
+				"İyi günler",
+				"Güle güle! Kısa süre sonra tekrar gelin."
+			],
+          "action":
+            [
+                ""
+            ]
+		},
+		{
+         "tag": "teşekkürler",
+         "patterns": ["Teşekkürler","Sağol", "Yardımcı oldu", "Çok teşekkür ederim!"],
+         "responses": ["Yardımcı olmaktan mutluluk duyarız!", "Her zaman!", "Memnuniyetle"],
+          "action":
+            [
+                ""
+            ]
+		},
+		{
+         "tag": "öğeler",
+         "patterns":
+			[
+			 "Neler satıyorsun?",
+			 "Hangi eşyalarınız var?",
+			 "Ne tür eşyalar var?",
+			 "Ne satıyorsun?"
+			],
+		 "responses":
+			[
+			 "Kahve ve çay satıyoruz",
+			 "Kahve ve çayımız var"
+			],
+          "action":
+            [
+                ""
+            ]
+		},
+		{
+         "tag": "ödemeler",
+         "patterns":
+			[
+				"Kredi kartı kabul ediyor musunuz?",
+				"MasterCard kabul ediyor musunuz?",
+				"Paypal ile ödeme yapabilir miyim?",
+				"Yalnızca nakit misiniz?"
+			],
+		 "responses":
+			[
+				"Nakit, VISA, Mastercard ve Paypal kabul ediyoruz",
+				"Nakit yanında çoğu kredi kartını ve Paypal'ı kabul ediyoruz"
+			],
+          "action":
+            [
+                ""
+            ]
+		},
+		{
+         "tag": "teslimat",
+         "patterns": 
+			[	
+				"Ne zamana gönderebilirsiniz?",
+				"Ne zamana kadar teslim edebilirsiniz?",
+				"Teslimat ne kadar sürer?",
+				"Nakliye ne kadar sürer?",
+				"Teslimatımı ne zaman alacağım?"
+			],
+         "responses": 
+			[
+				"Teslimat 2-4 gün sürer",
+				"Nakliye 2-4 gün sürer"
+			],
+          "action":
+            [
+                ""
+            ]
+		},
+		{
+         "tag": "komik",
+         "patterns":
+			[
+				"Bana şaka yapabilir misin?",
+				"Bana bir fıkra anlat!",
+				"Bana komik bir şey söyle!",
+				"Bir şaka biliyor musun?"
+			],
+         "responses":
+			[
+				"Yenilikçi neden ağzını yaktı? Kahveyi soğumadan içti.",
+				"Oğlu üniversiteye gittiğinde bufalo ne dedi? Bison."
+			],
+          "action":
+            [
+             ""   
+            ]
+		},
+		{
+         "tag": "hava",
+         "patterns":
+			[
+				"Hava nasıl?",
+				"Havayı söyle!",
+				"Nasıl hava?",
+				"Hava durumu."
+			],
+         "responses":
+			[
+				""
+			],
+          "action":
+            [
+             "2"   
+            ]
+		},
+		{
+         "tag": "musteri",
+         "patterns":
+			[
+				"Müsteri kayıt",
+				"Müsteri kaydolmak",
+				"Müsteri yeni kayıt"
+			],
+         "responses":
+			[
+				""
+			],
+          "action":
+            [
+             "3"   
+            ]
+		}
+        
+	]
+
+}

@@ -1,0 +1,23 @@
+I|10:16:35.852|Extracting data from NE-enamex.train.txt                                                            | NerDataSet#loadDataSet
+I|10:16:38.420|Training set information:                                                                           | TrainNerModel#run
+I|10:16:38.536| ? |TrainNerModel#run
+    Number of sentences      = 24824
+    Number of tokens         = 428299
+    Type = OUT (Count = 380061, Token Count = 380061 Av. Token = 1.00 )
+    Type = PERSON (Count = 14689, Token Count = 21636 Av. Token = 1.47 )
+    Type = LOCATION (Count = 10535, Token Count = 12135 Av. Token = 1.15 )
+    Type = ORGANIZATION (Count = 8378, Token Count = 14467 Av. Token = 1.73 )
+I|10:16:38.784|Root lexicon created in 168 ms.                                                                     | DictionarySerializer#getDictionaryItems
+I|10:16:38.796|Dictionary generated in 232 ms                                                                      | RootLexicon#defaultBinaryLexicon
+I|10:16:39.075|Initialized in 529 ms.                                                                              | TurkishMorphology#createWithDefaults
+I|10:16:39.076|------------ Training Started --------------------                                                  | TrainNerModel#run
+I|10:17:00.502|Iteration 1, Token error = 0.031067                                                                 | PerceptronNerTrainer#train
+I|10:17:18.508|Iteration 2, Token error = 0.012657                                                                 | PerceptronNerTrainer#train
+I|10:17:37.156|Iteration 3, Token error = 0.008296                                                                 | PerceptronNerTrainer#train
+I|10:17:54.471|Iteration 4, Token error = 0.005979                                                                 | PerceptronNerTrainer#train
+I|10:18:11.861|Iteration 5, Token error = 0.004525                                                                 | PerceptronNerTrainer#train
+I|10:18:29.599|Iteration 6, Token error = 0.003507                                                                 | PerceptronNerTrainer#train
+I|10:18:47.133|Iteration 7, Token error = 0.002830                                                                 | PerceptronNerTrainer#train
+I|10:18:47.202|Training finished.                                                                                  | PerceptronNerTrainer#train
+I|10:18:49.412|Text model is created in test-model\model                                                           | TrainNerModel#run
+I|10:18:49.413|Compressed model is created in test-model\model-compressed                                          | TrainNerModel#run
